@@ -41,15 +41,24 @@
           
 # print(course.find('e'))
 
-is_hot = False
-is_cold = False
-if is_hot:
-  print("It's a warm day.")
-  print("Drink plenty of water.")
-elif is_cold:
-  print("It's a cold day.")
-  print("Wear warm clothes.")
-else:
-  print("It's a lovely day.")
+# is_hot = False
+# is_cold = False
+# if is_hot:
+#   print("It's a warm day.")
+#   print("Drink plenty of water.")
+# elif is_cold:
+#   print("It's a cold day.")
+#   print("Wear warm clothes.")
+# else:
+#   print("It's a lovely day.")
 
-print("Enjoy your day!")
+# print("Enjoy your day!")
+
+house_price = 1000000
+has_good_credit = False
+if has_good_credit:
+  print('You need to put down 10%')
+  print("Down payment :$" + str (f'{house_price} * 0.1'))
+else:
+    print('You need to put down 20%')
+    print("Down payment :$" + str(f'{house_price * 0.2}'))
