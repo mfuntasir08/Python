@@ -90,25 +90,33 @@
 # elif unit.upper() == "K":
 #    print(f"You are {float(weight) * 2.20462} pounds.")
  
-secret_number = 47
-guess_count = 0
-guess_limit =3
-while guess_count < guess_limit :
-     guess = int(input("Guess: "))
-     guess_count += 1
-     if guess == secret_number:
-          print("You won!")
-          break
+# secret_number = 47
+# guess_count = 0
+# guess_limit =3
+# while guess_count < guess_limit :
+#      guess = int(input("Guess: "))
+#      guess_count += 1
+#      if guess == secret_number:
+#           print("You won!")
+#           break
          
+# else:
+#  print("Sorry, you failed.")   
+
+key_word1 = "help"
+key_word2 = "start"
+key_word3 = "stop"
+key_word4 = "quit"
+
+key_word = input("> ").lower()
+
+if key_word == key_word1:
+ print("start - to start the car \n stop - to stop the car \n quit - to exit the ")
+elif key_word == key_word2:
+ print("Car started... Ready to go!")  
+elif key_word == key_word3:
+ print("Car stopped.")
+elif key_word == key_word4:
+ print(" ")
 else:
- print("Sorry, you failed.")   
-   
-
-
-
-
-
-
-
-
-
+ print("I don't understand that...")
