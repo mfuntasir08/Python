@@ -81,15 +81,28 @@
 # else :
 #   print("Name looks good!")
 
-weight = input("Enter your weight: ")
+# weight = input("Enter your weight: ")
 
-unit = input("(L)bs or (K)gs: ")
+# unit = input("(L)bs or (K)gs: ")
 
-if unit.upper() == "L":
-   print(f"You are {float(weight) * 0.45} kilos.")
-elif unit.upper() == "K":
-   print(f"You are {float(weight) * 2.20462} pounds.")
-
+# if unit.upper() == "L":
+#    print(f"You are {float(weight) * 0.45} kilos.")
+# elif unit.upper() == "K":
+#    print(f"You are {float(weight) * 2.20462} pounds.")
+ 
+secret_number = 47
+guess_count = 0
+guess_limit =3
+while guess_count < guess_limit :
+     guess = int(input("Guess: "))
+     guess_count += 1
+     if guess == secret_number:
+          print("You won!")
+          break
+         
+else:
+ print("Sorry, you failed.")   
+   
 
 
 
