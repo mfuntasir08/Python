@@ -107,16 +107,32 @@ key_word1 = "help"
 key_word2 = "start"
 key_word3 = "stop"
 key_word4 = "quit"
+is_started = False
+is_stopped = False
+while True:
+    key_word = input("> ").lower()
 
-key_word = input("> ").lower()
+    if key_word == key_word1:
+        print("start - to start the car")
+        print("stop  - to stop the car")
+        print("quit  - to exit")
+    elif key_word == key_word2:
+     if is_started :
+        print("Car is already started")
+     else:
+        is_started = True
+        print("Car started... Ready to go!")
+    elif key_word == key_word3:
+     if is_stopped :
+        print("Car is already stopped")
+     else: 
+        is_stopped = True    
+        print("Car stopped.")
+    elif key_word == key_word4:
+        print("Exiting game...")
+        break    
+    else:
+        print("I don't understand.")
+ 
 
-if key_word == key_word1:
- print("start - to start the car \n stop - to stop the car \n quit - to exit the ")
-elif key_word == key_word2:
- print("Car started... Ready to go!")  
-elif key_word == key_word3:
- print("Car stopped.")
-elif key_word == key_word4:
- print(" ")
-else:
- print("I don't understand that...")
+    
