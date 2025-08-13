@@ -73,10 +73,29 @@
 # age = 20
 # print(f"My Name Is {name} And I Am {age} Years Old.")
  
-name = input("Enter Your Name: ")
-if len(name) < 3 :
-  print("Name must be at least 3 characters")
-elif len(name) > 50:
-  print("Name can be a maximum of 50 characters")   
-else :
-  print("Name looks good!")
+# name = input("Enter Your Name: ")
+# if len(name) < 3 :
+#   print("Name must be at least 3 characters")
+# elif len(name) > 50:
+#   print("Name can be a maximum of 50 characters")   
+# else :
+#   print("Name looks good!")
+
+weight = input("Enter your weight: ")
+
+unit = input("(L)bs or (K)gs: ")
+
+if unit.upper() == "L":
+   print(f"You are {float(weight) * 0.45} kilos.")
+elif unit.upper() == "K":
+   print(f"You are {float(weight) * 2.20462} pounds.")
+
+
+
+
+
+
+
+
+
+
