@@ -37,6 +37,19 @@
 # else :
 #     print("Password is valid.")
 
-course = 'python for newbies'
+# course = 'python for newbies'
           
-print(course.find('e'))
+# print(course.find('e'))
+
+is_hot = False
+is_cold = False
+if is_hot:
+  print("It's a warm day.")
+  print("Drink plenty of water.")
+elif is_cold:
+  print("It's a cold day.")
+  print("Wear warm clothes.")
+else:
+  print("It's a lovely day.")
+
+print("Enjoy your day!")
