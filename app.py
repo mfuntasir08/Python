@@ -134,10 +134,18 @@
 #         break    
 #     else:
 #         print("I don't understand.")
- 
+
+#  for loop
 # prices = [10, 20, 30, 40, 50]
 # sum = 0
 
 # for price in prices :
 #   sum += price
 # print(sum)
+
+numbers = [1, 1, 1, 6]
+for x_count in numbers:
+   output = ''
+   for count in range(x_count):
+    output += 'X'
+   print(output)  
