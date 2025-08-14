@@ -103,37 +103,41 @@
 # else:
 #  print("Sorry, you failed.")   
 
-key_word1 = "help"
-key_word2 = "start"
-key_word3 = "stop"
-key_word4 = "quit"
-is_started = False
+# key_word1 = "help"
+# key_word2 = "start"
+# key_word3 = "stop"
+# key_word4 = "quit"
+# is_started = False
 
-while True:
-    key_word = input("> ").lower()
+# while True:
+#     key_word = input("> ").lower()
 
-    if key_word == key_word1:
-        print("start - to start the car")
-        print("stop  - to stop the car")
-        print("quit  - to exit")
-    elif key_word == key_word2:
-     if is_started :
-        print("Car is already started")
-     else:
-        is_started = True
-        print("Car started... Ready to go!")
-    elif key_word == key_word3:  
-      if not is_started:       
-        print("Car is already stopped")
-      else:  
-        is_started = False                   
-        print("Car stopped.")
+#     if key_word == key_word1:
+#         print("start - to start the car")
+#         print("stop  - to stop the car")
+#         print("quit  - to exit")
+#     elif key_word == key_word2:
+#      if is_started :
+#         print("Car is already started")
+#      else:
+#         is_started = True
+#         print("Car started... Ready to go!")
+#     elif key_word == key_word3:  
+#       if not is_started:       
+#         print("Car is already stopped")
+#       else:  
+#         is_started = False                   
+#         print("Car stopped.")
 
-    elif key_word == key_word4:
-        print("Exiting game...")
-        break    
-    else:
-        print("I don't understand.")
+#     elif key_word == key_word4:
+#         print("Exiting game...")
+#         break    
+#     else:
+#         print("I don't understand.")
  
+# prices = [10, 20, 30, 40, 50]
+# sum = 0
 
-    
+# for price in prices :
+#   sum += price
+# print(sum)
