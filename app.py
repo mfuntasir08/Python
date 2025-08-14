@@ -108,7 +108,7 @@ key_word2 = "start"
 key_word3 = "stop"
 key_word4 = "quit"
 is_started = False
-is_stopped = False
+
 while True:
     key_word = input("> ").lower()
 
@@ -122,12 +122,13 @@ while True:
      else:
         is_started = True
         print("Car started... Ready to go!")
-    elif key_word == key_word3:
-     if is_stopped :
+    elif key_word == key_word3:  
+      if not is_started:       
         print("Car is already stopped")
-     else: 
-        is_stopped = True    
+      else:  
+        is_started = False                   
         print("Car stopped.")
+
     elif key_word == key_word4:
         print("Exiting game...")
         break    
