@@ -150,13 +150,28 @@
 #     output += 'X'
 #    print(output) 
 
-numbers = [3,6,9,3,4,0,1]
-max = numbers[0]
-for number in numbers :
-  if number > max :
-    max = number
-print(max)
+# numbers = [3,6,9,3,4,0,1]
+# max = numbers[0]
+# for number in numbers :
+#   if number > max :
+#     max = number
+# print(max)
 
+# matrix = [
+#   [1,2,3],
+#   [4,5,6],
+#   [7,8,9]
+# ]
+# for row in matrix :
+#   for item in row:
+#     print(item)
+
+numbers =[2,6,23,56,87,2,45,87]
+unique = []
+for number in numbers:
+  if number not in unique:
+    unique.append(number)
+print(unique)
 
 
 
