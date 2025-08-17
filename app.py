@@ -166,14 +166,20 @@
 #   for item in row:
 #     print(item)
 
-numbers =[2,6,23,56,87,2,45,87]
-unique = []
-for number in numbers:
-  if number not in unique:
-    unique.append(number)
-print(unique)
+# numbers =[2,6,23,56,87,2,45,87]
+# unique = []
+# for number in numbers:
+#   if number not in unique:
+#     unique.append(number)
+# print(unique)
 
+# phone_number = input("enter your phone number")
+# digits={
+#   "1":"one","2":"two","3":"three","4":"four",
+#   "5":"five","6":"six","7":"seven","8":"eight","9":"nine","0":"zero"
+# }
+# output = ""
+# for ch in phone_number:
+#  output += digits.get(ch,) + " "
+# print(output)
 
-
-
- 
