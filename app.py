@@ -143,9 +143,22 @@
 #   sum += price
 # print(sum)
 
-numbers = [1, 1, 1, 6]
-for x_count in numbers:
-   output = ''
-   for count in range(x_count):
-    output += 'X'
-   print(output)  
+# numbers = [1, 1, 1, 6]
+# for x_count in numbers:
+#    output = ''
+#    for count in range(x_count):
+#     output += 'X'
+#    print(output) 
+
+numbers = [3,6,9,3,4,0,1]
+max = numbers[0]
+for number in numbers :
+  if number > max :
+    max = number
+print(max)
+
+
+
+
+
+ 
